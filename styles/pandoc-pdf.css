@@ -1,0 +1,44 @@
+@import url("./base.css");
+
+@page {
+  size: A4;
+  margin: 85px 85px 120px 135px;
+
+  @bottom-left {
+    content: string(document-title);
+    font-family: "Source Code Pro";
+    font-size: 8px;
+    width: 297px;
+  }
+
+  @bottom-right {
+    content: counter(page) " / " counter(pages);
+    font-family: "Source Code Pro";
+    font-size: 8px;
+    text-align: right;
+    width: 115.5px;
+  }
+}
+
+html,
+body {
+  width: var(--mds-content-width);
+}
+
+body {
+  string-set: document-title attr(data-title);
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  blockquote,
+  pre,
+  table,
+  hr {
+    break-inside: avoid;
+  }
+}

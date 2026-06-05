@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.mafmadmaf.markdown-css-style.v2-6</string>
+  <key>CFBundleName</key>
+  <string>Markdown CSS Style v2.6</string>
+  <key>CFBundleShortVersionString</key>
+  <string>2.6</string>
+  <key>CFBundleVersion</key>
+  <string>26</string>
+  <key>IATemplateAuthor</key>
+  <string>mafmadmaf</string>
+  <key>IATemplateAuthorURL</key>
+  <string>https://example.com</string>
+  <key>IATemplateDescription</key>
+  <string>Markdown CSS Style v2.6 with 175.3125px left margin, 107.6875px right margin, 453.75px content width, and 50px PDF top margin.</string>
+  <key>IATemplateDocumentFile</key>
+  <string>document</string>
+  <key>IATemplateFooterFile</key>
+  <string>footer</string>
+  <key>IATemplateFooterHeight</key>
+  <integer>52</integer>
+  <key>IATemplateHeaderFile</key>
+  <string>header</string>
+  <key>IATemplateHeaderHeight</key>
+  <integer>85</integer>
+  <key>IATemplateTitleFile</key>
+  <string>title</string>
+  <key>IATemplateTitleUsesHeaderAndFooterHeight</key>
+  <false/>
+  <key>IATemplateSupportsMath</key>
+  <true/>
+  <key>IATemplateSuportsSmartTables</key>
+  <true/>
+</dict>
+</plist>

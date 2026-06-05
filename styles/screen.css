@@ -1,0 +1,27 @@
+@import url("./base.css");
+
+body {
+  box-sizing: border-box;
+  max-width: calc(var(--mds-content-width) + 135px + 24px);
+  min-height: 100vh;
+  padding: 85px 24px 85px 135px;
+}
+
+@media (max-width: 560px) {
+  body {
+    max-width: none;
+    padding: 48px 24px;
+  }
+
+  blockquote,
+  pre,
+  table,
+  hr {
+    width: 100%;
+  }
+
+  img,
+  figure {
+    max-width: 100%;
+  }
+}

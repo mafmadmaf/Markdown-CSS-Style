@@ -1,0 +1,11 @@
+@import url("./screen.css");
+
+.vscode-body,
+body.vscode-body {
+  max-width: calc(var(--mds-content-width) + 135px + 24px);
+  padding: 85px 24px 85px 135px;
+}
+
+.vscode-body pre {
+  background: var(--mds-code-bg);
+}
