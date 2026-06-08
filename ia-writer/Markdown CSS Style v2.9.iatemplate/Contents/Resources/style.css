@@ -405,11 +405,22 @@ figcaption,
     padding: 48px 24px;
   }
 
+  .document-content,
   blockquote,
   pre,
   table,
-  hr {
+  hr,
+  p > hr,
+  div > hr,
+  .document-content > hr,
+  body > hr {
+    max-width: 100%;
     width: 100%;
+  }
+
+  .title {
+    max-width: none;
+    padding: 48px 24px;
   }
 
   img,
